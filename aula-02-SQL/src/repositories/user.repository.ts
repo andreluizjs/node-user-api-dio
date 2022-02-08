@@ -72,6 +72,7 @@ class UserRepository {
         const values = [uuid];
         await db.query(cript, values);
     }
+
 }
 
 export default new UserRepository();
